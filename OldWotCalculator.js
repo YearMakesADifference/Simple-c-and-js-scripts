@@ -112,7 +112,7 @@ function OnGUI()
  if(Zapisano)
  {
   if(GUI.Button(Rect(Screen.width * 0.4,Screen.height * 0.75,Screen.width * 0.2,Screen.height * 0.09),"Przywróć"))
-  {
+  { 
    PenetracjaMinS = OstatniaPenaMin.ToString();
    PenetracjaMaxS = OstatniaPenaMax.ToString();
    PancerzS = OstatniPancerz.ToString();
